@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_marginTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName1"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:hint="password" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_width="150dp"
+        android:layout_height="59dp"
+        android:text="Sign Up" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Already have an account ? Sign in here">
+
+    </TextView>
+
+
+</LinearLayout>
